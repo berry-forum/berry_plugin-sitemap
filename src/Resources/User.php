@@ -27,7 +27,7 @@ class User extends Resource
     public function url($model): string
     {
         return $this->generateRouteUrl('user', [
-            'username' => $model->username,
+            'id' => $model->id,
         ]);
     }
 

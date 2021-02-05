@@ -46,7 +46,7 @@ class Page extends Resource
     public function url($model): string
     {
         return $this->generateRouteUrl('pages.page', [
-            'id' => $model->id.(trim($model->slug) ? '-'.$model->slug : ''),
+            'id' => $model->id,
         ]);
     }
 
