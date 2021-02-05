@@ -1,15 +1,18 @@
 {
-    "name": "fof/sitemap",
+    "name": "starinc/nex_sitemap",
     "description": "Generate a sitemap",
     "keywords": [
         "extension",
-        "flarum",
-        "flagrow",
         "sitemap"
     ],
+    "homepage": "https://nex.starinc.xyz/",
     "type": "flarum-extension",
     "license": "MIT",
     "authors": [
+        {
+            "name": "SuperSonic",
+            "email": "supersonic@livemail.tw"
+        },
         {
             "name": "Clark Winkelmann",
             "email": "clark.winkelmann@gmail.com",
@@ -21,10 +24,6 @@
             "homepage": "http://luceos.com"
         }
     ],
-    "support": {
-        "issues": "https://github.com/FriendsOfFlarum/sitemap/issues",
-        "source": "https://github.com/FriendsOfFlarum/sitemap"
-    },
     "require": {
         "flarum/core": ">=0.1.0-beta.13 <0.1.0-beta.14",
         "fof/console": "^0.5.3",
@@ -38,9 +37,6 @@
                 "backgroundColor": "#e74c3c",
                 "color": "#fff"
             }
-        },
-        "flagrow": {
-            "discuss": "https://discuss.flarum.org/d/14941"
         }
     },
     "replace": {
