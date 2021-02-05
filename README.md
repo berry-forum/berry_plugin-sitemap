@@ -34,4 +34,4 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-> (c) 2021 [Star Inc.](https://starinc.xyz).
+> (c) 2021 [Star Inc.](https://starinc.xyz)
